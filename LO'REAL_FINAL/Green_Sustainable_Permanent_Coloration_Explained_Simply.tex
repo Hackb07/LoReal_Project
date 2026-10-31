@@ -1,0 +1,118 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\hypersetup{colorlinks=true, linkcolor=blue!60!black, urlcolor=blue!60!black}
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+
+\title{\Large\bfseries Fate-Engineered Hair Dye --- Explained Simply}
+\author{Based on: Green\_Sustainable\_Permanent\_Coloration\_Full\_Paper.tex}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{quote}
+\emph{Normal permanent hair dye lasts well, but it can cause allergies and it pollutes water. This paper proposes a dye that is \textbf{stable in your hair, self-destructs on your skin, and breaks down in wastewater}.}
+\end{quote}
+
+\section{Why Permanent Dye Is Hard to Replace}
+Over 50\% of women and a growing share of men use oxidative hair color. Permanent dye dominates because only it covers grey durably in a single step.
+
+It works in 3 steps:
+\begin{enumerate}[leftmargin=1.5em]
+\item \textbf{Swell and open:} The cream (pH 9--11) lifts the hair cuticle and swells the hair so dye can enter.
+\item \textbf{Penetrate small, trap large:} Tiny color building-blocks (100--150 Da) go \emph{inside} the hair. Peroxide then glues them into big colored molecules ($>$500 Da) too big to wash out. That trap is what makes it permanent.
+\item \textbf{Couple to color:} Primary intermediate + coupler $\rightarrow$ colored dye.
+\end{enumerate}
+
+Nothing else gives that same shade range + wash and light fastness.
+
+The problem: those same building-blocks cause trouble elsewhere:
+\begin{itemize}[leftmargin=1.5em]
+\item \textbf{On skin:} leftover dye can stick to skin proteins and trigger allergy / sensitization.
+\item \textbf{In rivers:} the big colored molecules that wash out don't break down, so they persist as pollution.
+\end{itemize}
+
+We want a dye that lasts AND disappears. Sounds impossible.
+
+\section{The New Idea: Fate Engineering}
+Instead of finding one perfect chemical, design a chemical that \textbf{behaves differently in 3 places}:
+
+\subsection*{In Hair = STABLE}
+Stays locked in, keeps color for 28 shampoos. Target: color change $\Delta E \leq 3$ after 28 shampoos, $\geq$95\% grey coverage.
+
+\subsection*{On Skin = CLEAVABLE}
+Your skin has enzymes called esterases. The new dye has a weak link --- an ester or carbonate side-chain --- that those enzymes cut.
+
+Once cut, it becomes water-loving (polar) and washes off instead of sticking to proteins and causing allergy.
+
+Think of it like: a key that melts as soon as it touches skin, so it can't unlock an allergic reaction. Target: half-life $\leq$ 60 minutes on skin-like models.
+
+\subsection*{In Wastewater = DEGRADABLE}
+The final color has another weak link, a ``trigger link'' placed away from the color part so it doesn't change the color.
+
+In wastewater with bacteria / different pH, that link breaks and the color falls apart so bacteria can eat it. Target: $\geq$60\% breakdown in 28 days in OECD 301B eco-test.
+
+\section{How They Plan to Test It}
+\textbf{Important: This is only a proposal. No lab results yet.}
+
+Plan is 12 months. Make 5--8 versions of the new dye and compare them to the current best low-allergy dye, called ME-PPD.
+
+\textbf{Phase 1 (Months 1--4): Chemistry + Safety in Lab}
+\begin{itemize}[leftmargin=1.5em]
+\item Make the new molecules
+\item Does it still make color fast enough? Target: within 25\% of ME-PPD speed
+\item Does it survive pH 9--10 in the cream, but break on skin enzymes?
+\item Allergy lab tests: DPRA, KeratinoSens, h-CLAT (no animals)
+\end{itemize}
+
+\textbf{Phase 2 (Months 5--9): Real Hair Tests}
+\begin{itemize}[leftmargin=1.5em]
+\item Test on natural, bleached, and 100\% white hair
+\item Color yield, 28-shampoo fastness, light fastness
+\item Hair strength and combing force
+\end{itemize}
+
+\textbf{Phase 3 (Months 10--12): Eco Fate}
+\begin{itemize}[leftmargin=1.5em]
+\item OECD 301B biodegradation test on precursors AND final dyes separately
+\item Identify breakdown products
+\item Screening aquatic toxicity
+\end{itemize}
+
+If a candidate fails any gate, it gets dropped.
+
+\section{Why It's New}
+Old fixes only solved one problem at a time:
+\begin{itemize}[leftmargin=1.5em]
+\item \textbf{ME-PPD:} less allergy, but still causes reaction in $\sim$30\% of allergic people, and still pollutes. Not designed to degrade.
+\item \textbf{Amino-acid cream instead of ammonia:} less smell, but doesn't fix dye pollution.
+\item \textbf{Melanin / natural coating:} safer, no aromatic amines, but very few colors and mostly surface coating that washes off.
+\item \textbf{Resorcinol-free:} fixes coupler issue, not precursor persistence.
+\end{itemize}
+
+Nobody has tried to design the dye itself to have 3 different intentional fates on purpose. That's the new idea here.
+
+The paper does NOT claim a new alkali, new oxidant, or full shade chart. Arginine alkali and normal peroxide are just used as controls. Focus is only on precursor + chromophore design.
+
+\section{Risks}
+\begin{enumerate}[leftmargin=1.5em]
+\item The weak ester link might break too early in the alkaline cream before it even reaches hair. Must test this first.
+\item Changing the molecule might slow down color formation.
+\item Lab allergy tests don't replace human clinical tests.
+\item The eco-trigger link might shift the color.
+\item New dyes need full regulatory approval --- out of scope for 12 months.
+\end{enumerate}
+
+\section{If Your Friend Asks ``So Did It Work?''}
+Answer: We don't know yet. This paper is the blueprint for \emph{how} to try it, with success criteria defined in advance.
+
+It asks: Can we get stable-in-hair + safe-on-skin + degradable-in-water without losing performance vs ME-PPD? That test hasn't been run yet.
+
+\end{document}
